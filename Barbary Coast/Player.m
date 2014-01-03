@@ -29,7 +29,7 @@
         CGSize screenSize = [[CCDirector sharedDirector] winSize];
         
         // Create ship
-        ship = [CCSprite spriteWithFile: @"ship.png"];
+        ship = [CCSprite spriteWithFile: @"ship-red.png"];
         ship.position = CGPointMake(screenSize.width*0.5, screenSize.height*0.5);
         ship.anchorPoint = CGPointMake(1, 0.5);
         [self addChild:ship];

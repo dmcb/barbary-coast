@@ -11,8 +11,8 @@
 		741316C518738CBB0043ACD0 /* AquilineTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 741316C118738CBB0043ACD0 /* AquilineTwo.png */; };
 		741316C818738EA50043ACD0 /* AquilineTwo@2x.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 741316C618738EA50043ACD0 /* AquilineTwo@2x.fnt */; };
 		741316C918738EA50043ACD0 /* AquilineTwo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 741316C718738EA50043ACD0 /* AquilineTwo@2x.png */; };
-		741316CC1873B89A0043ACD0 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 741316CA1873B89A0043ACD0 /* ship.png */; };
-		741316CD1873B89A0043ACD0 /* ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 741316CB1873B89A0043ACD0 /* ship@2x.png */; };
+		741316D018775D3A0043ACD0 /* ship-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 741316CE18775D3A0043ACD0 /* ship-red.png */; };
+		741316D118775D3A0043ACD0 /* ship-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 741316CF18775D3A0043ACD0 /* ship-red@2x.png */; };
 		748210BE18734DF6008D1D29 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748210BD18734DF6008D1D29 /* QuartzCore.framework */; };
 		748210C018734DF6008D1D29 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748210BF18734DF6008D1D29 /* OpenGLES.framework */; };
 		748210C218734DF6008D1D29 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748210C118734DF6008D1D29 /* OpenAL.framework */; };
@@ -210,8 +210,8 @@
 		741316C118738CBB0043ACD0 /* AquilineTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AquilineTwo.png; sourceTree = "<group>"; };
 		741316C618738EA50043ACD0 /* AquilineTwo@2x.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AquilineTwo@2x.fnt"; sourceTree = "<group>"; };
 		741316C718738EA50043ACD0 /* AquilineTwo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AquilineTwo@2x.png"; sourceTree = "<group>"; };
-		741316CA1873B89A0043ACD0 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
-		741316CB1873B89A0043ACD0 /* ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship@2x.png"; sourceTree = "<group>"; };
+		741316CE18775D3A0043ACD0 /* ship-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-red.png"; sourceTree = "<group>"; };
+		741316CF18775D3A0043ACD0 /* ship-red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-red@2x.png"; sourceTree = "<group>"; };
 		748210BA18734DF6008D1D29 /* Barbary Coast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barbary Coast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		748210BD18734DF6008D1D29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		748210BF18734DF6008D1D29 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1237,8 +1237,8 @@
 		7482130B18735041008D1D29 /* Art */ = {
 			isa = PBXGroup;
 			children = (
-				741316CA1873B89A0043ACD0 /* ship.png */,
-				741316CB1873B89A0043ACD0 /* ship@2x.png */,
+				741316CE18775D3A0043ACD0 /* ship-red.png */,
+				741316CF18775D3A0043ACD0 /* ship-red@2x.png */,
 				74821332187386A3008D1D29 /* menu@2x.png */,
 				74821333187386A3008D1D29 /* menu.png */,
 			);
@@ -1312,14 +1312,15 @@
 			files = (
 				748210E418734DF6008D1D29 /* Icon.png in Resources */,
 				7482124218734DF8008D1D29 /* ChangeLog in Resources */,
-				741316CD1873B89A0043ACD0 /* ship@2x.png in Resources */,
 				74821335187386A3008D1D29 /* menu.png in Resources */,
 				741316C818738EA50043ACD0 /* AquilineTwo@2x.fnt in Resources */,
+				741316D018775D3A0043ACD0 /* ship-red.png in Resources */,
 				748210D618734DF6008D1D29 /* Default@2x.png in Resources */,
 				748210E018734DF6008D1D29 /* Icon-Small.png in Resources */,
 				748210DC18734DF6008D1D29 /* Icon-72.png in Resources */,
 				748210D418734DF6008D1D29 /* Default.png in Resources */,
 				748210DE18734DF6008D1D29 /* Icon-Small-50.png in Resources */,
+				741316D118775D3A0043ACD0 /* ship-red@2x.png in Resources */,
 				741316C918738EA50043ACD0 /* AquilineTwo@2x.png in Resources */,
 				748210E918734DF6008D1D29 /* iTunesArtwork in Resources */,
 				7482130218734DF8008D1D29 /* blocks.png in Resources */,
@@ -1331,7 +1332,6 @@
 				748210D818734DF6008D1D29 /* Default-568h@2x.png in Resources */,
 				748210E618734DF6008D1D29 /* Icon@2x.png in Resources */,
 				7482131618735041008D1D29 /* AquilineTwo.ttf in Resources */,
-				741316CC1873B89A0043ACD0 /* ship.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
